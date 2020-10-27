@@ -5,7 +5,6 @@ import { SafeAreaView } from 'react-native-safe-area-context';
 
 export const List = ({ navigation }) => {
     const context = useSettingsContext();
-    console.log("List -> context", context)
 
     return (
         <SafeAreaView>

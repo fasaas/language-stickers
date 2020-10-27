@@ -23,6 +23,11 @@ const defaultValue = {
         "Женская",
         "Средное",
         "Множественное число"
+    ],
+    sections: [
+        'Sentence',
+        'Adjective',
+        'Verb'
     ]
 }
 
