@@ -2,6 +2,7 @@ import React from 'react';
 import { useSettingsContext } from '../context/settings';
 import { Adjective } from './adjective';
 import { Sentence } from './sentence';
+import { Verb } from './verb';
 
 
 export const Section = ({ type }) => {
@@ -16,7 +17,7 @@ export const Section = ({ type }) => {
     }
 
     if (type === sectionTypes.Verb) {
-
+        return <Verb />
     }
 
     return null
