@@ -8,7 +8,7 @@ export const List = ({ navigation }) => {
 
     return (
         <SafeAreaView>
-            <Button title="go to add" onPress={() => navigation.navigate('Add', { a: 7 })} />
+            <Button title="go to add" onPress={() => navigation.navigate('Add', { id: 1 })} />
         </SafeAreaView>
     );
 }

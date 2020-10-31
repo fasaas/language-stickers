@@ -24,14 +24,14 @@ const defaultValue = {
         "Средное",
         "Множественное число"
     ],
-    sections: [
-        'Sentence',
-        'Adjective',
-        'Verb'
-    ]
+    sectionTypes: {
+        Sentence: 'Sentence',
+        Adjective: 'Adjective',
+        Verb: 'Verb'
+    }
 }
 
-const SettingsContext = createContext();
+const SettingsContext = createContext(defaultValue);
 
 export const SettingsProvider = ({ children }) => {
 
